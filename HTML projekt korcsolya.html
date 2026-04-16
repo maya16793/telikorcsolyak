@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<title>Téli Korcsolyák - Részletes</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    color: white;
+    background: linear-gradient(to bottom, #001f3f, #003366);
+}
+
+/* HÓ */
+.snow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.transparenttextures.com/patterns/snow.png');
+    animation: snow 12s linear infinite;
+}
+
+@keyframes snow {
+    from {background-position: 0 0;}
+    to {background-position: 0 800px;}
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: rgba(0,0,0,0.6);
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #00ccff;
+}
+
+section {
+    margin: 30px;
+    padding: 25px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #00ccff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="snow"></div>
+
+<header>
+    <h1>❄️ Téli Korcsolyák Részletes Világa ❄️</h1>
+    <p>Minden, amit a jégen használt korcsolyákról tudni érdemes</p>
+</header>
+
+<nav>
+    <a href="#tortenet">Történet</a>
+    <a href="#mukorcsolya">Műkorcsolya</a>
+    <a href="#hoki">Hoki</a>
+    <a href="#gyors">Gyorskorcsolya</a>
+    <a href="#tura">Túrakorcsolya</a>
+    <a href="#felepites">Felépítés</a>
+</nav>
+
+<section id="tortenet">
+<h2>📜 A korcsolyázás története</h2>
+<p>
+A korcsolyázás több mint 3000 éves múltra tekint vissza. Az első korcsolyák
+állati csontból készültek, amelyeket a lábra kötöztek.
+</p>
+<p>
+A középkorban főként Hollandiában vált népszerűvé, ahol a befagyott csatornákon
+közlekedtek vele. Később fejlődött sporttá.
+</p>
+
+<div class="gallery">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Ancient_skates.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Dutch_skating.jpg">
+</div>
+</section>
+
+<section id="mukorcsolya">
+<h2>⛸️ Műkorcsolya</h2>
+<p>
+A műkorcsolya az egyik legösszetettebb téli sport. A sportolók nemcsak technikai
+elemeket hajtanak végre, hanem művészi előadást is nyújtanak.
+</p>
+
+<p>
+A legismertebb elemek közé tartoznak az ugrások (Axel, Lutz, Salchow), valamint
+a különböző forgások és lépéssorok.
+</p>
+
+<div class="gallery">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Figure_skates.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Figure_skating_spin.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Figure_skating_jump.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Figure_skating_pair.jpg">
+</div>
+
+<p>
+A korcsolya elején található fogazás kulcsfontosságú az ugrásoknál.
+</p>
+</section>
+
+<section id="hoki">
+<h2>🏒 Jégkorcsolya (Hoki)</h2>
+<p>
+A hoki korcsolya a gyorsaságra és a stabilitásra lett tervezve. A játékosok
+rendkívül gyorsan mozognak és gyakran ütköznek.
+</p>
+
+<p>
+A cipő erős anyagból készül, hogy védje a lábat. A penge rövid és ívelt,
+ami segíti a gyors fordulást.
+</p>
+
+<div class="gallery">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Hockey_skates.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Ice_hockey_action.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Hockey_players.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Hockey_game.jpg">
+</div>
+</section>
+
+<section id="gyors">
+<h2>⚡ Gyorskorcsolya</h2>
+<p>
+A gyorskorcsolya célja a maximális sebesség elérése. A sportolók speciális
+testtartást vesznek fel a légellenállás csökkentése érdekében.
+</p>
+
+<p>
+A hosszú pengék stabilitást biztosítanak, és lehetővé teszik a nagy sebességet.
+</p>
+
+<div class="gallery">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Speed_skates.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Speed_skating.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Speed_skater.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Speed_skating_race.jpg">
+</div>
+</section>
+
+<section id="tura">
+<h2>🌨️ Túrakorcsolya</h2>
+<p>
+A túrakorcsolyázás egyre népszerűbb. Természetes jégen, tavakon és folyókon
+használják.
+</p>
+
+<p>
+Ez a típus hosszabb pengével rendelkezik, és gyakran túracipőhöz rögzítik.
+</p>
+
+<div class="gallery">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Tour_skates.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Ice_skating_lake.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Lake_skating.jpg">
+</div>
+</section>
+
+<section id="felepites">
+<h2>🔧 A korcsolya felépítése</h2>
+<p>
+Egy korcsolya több fontos részből áll:
+</p>
+
+<ul>
+<li>Cipő – tartja a lábat</li>
+<li>Penge – a jégen csúszik</li>
+<li>Fűző – rögzíti a lábat</li>
+<li>Fogazás (műkorcsolyánál)</li>
+</ul>
+
+<p>
+A megfelelő korcsolya kiválasztása nagyon fontos a biztonság és a teljesítmény szempontjából.
+</p>
+</section>
+
+<footer>
+<p>🔥 Részletes korcsolya projekt | 2026 🔥</p>
+</footer>
+
+</body>
+</html>
